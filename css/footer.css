@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, html * {
+  font-family: Roboto;
+}
+.col-sm-4{
+	text-align: center;
+	background-color:#333333;
+	height:240px;
+	color:white;
+	cursor:default;
+}
+#foot{
+	text-align: center;
+	background-color:#262626;
+	height:80px;
+	color:white;
+	cursor:default;
+	font-size:17px;
+}
+.top{
+	font-weight:normal;
+	font-size:20px;
+	padding-top:15px;
+	color:white;
+}
+p, a, div{
+	padding:0px;
+	margin:0px;
+}
+.bot{
+	font-size:17px;
+	color:#bfbfbf;
+	line-height: 30px;
+}
+.bot a, #foot a{
+	text-decoration: none;
+}
+#copyryte {
+	text-align:center;
+	color:white;
+	padding-top:25px;
+}
+.col-sm-4:hover .top{color:#ff5050;}
+.row{
+	bottom:80px;
+}
+.col-sm-4 a{
+	text-decoration: none;
+}
+
+
+

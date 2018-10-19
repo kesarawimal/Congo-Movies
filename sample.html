@@ -1,0 +1,19 @@
+
+
+<html>
+<head>
+<body>
+<input type="text" id="url">
+<button id="button" src="" onclick="search()">SEARCH</button>
+<iframe id="iframe" width="100%" height="100%"></iframe>
+<script>
+var url;
+function search(){
+    url = document.getElementById("url").value;
+	document.getElementById("iframe").src = url;	
+	}
+</script>
+
+</body>
+</html>
+

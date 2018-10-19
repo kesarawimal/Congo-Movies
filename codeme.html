@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head> 
+<body>
+ <textarea id="t1">
+</textarea> 
+ <textarea id="t2">
+</textarea> 
+ <textarea id="t3">
+</textarea> 
+<button id="button">execute</button>
+
+<iframe id="targetFrame"></iframe> 
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+		var html = $('#t1').val();
+				var js1 = "<script>"+js+"</script>";
+
+		var css = $('#t2').val();
+		var css1 = "<style>"+css+"</style>";
+		var js = $('#t3').val();
+        $('#targetFrame').contents().find('html').html(js1+html+css1);
+    });
+});
+</script>
+</body>
+</html>

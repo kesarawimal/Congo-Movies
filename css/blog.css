@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, html * {
+  font-family: Roboto;
+}
+body img {
+	margin:0;
+	padding:0;
+
+}
+#container {
+	background-color:#f5f5f0;
+
+}
+#content {
+	background-color:white;
+	width:82%;
+	margin-left:auto;
+	margin-right:auto;
+	height:100%;
+	padding-top:40px;
+	padding-left:40px;
+	padding-right:40px;
+	padding-bottom:40px;
+}
+#title {
+	color:#0a2e68;
+	text-align:center;
+	text-transform:uppercase;
+}
+#date {
+	color:#7a3609;
+	font-weight:normal;
+}
+#contents {
+	text-align:justify;
+}
+form {
+	text-align:center;
+}
+#text {
+	color:#2d660a;
+	font-size:17px;
+}
+#comment {
+	resize: vertical;
+  width: 50%;
+}
+#errcomment {
+	color:red;
+}
+#submit {
+	background-color:#494941;
+	padding: 10px 40px 10px 40px;
+	color:white;
+}
+#email {
+	color:#2d660a;
+	font-size:17px;
+}
+#cdate {
+	color:#7a3609;
+	font-weight:normal;
+}
+#body {
+	font-size:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
